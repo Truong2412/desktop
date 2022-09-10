@@ -1,0 +1,85 @@
+.carouselItem {
+
+    cursor: pointer;
+}
+.slick-list {
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+.motion {
+
+    max-height: 320px;
+}
+.motionItem {
+    padding: 10px;
+    max-height: 160px;
+}
+.motionItem img {
+    cursor: pointer;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 8px;
+}
+.motionItem img:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.01);
+}
+@media only screen and (min-width: 1200px) {
+
+}
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .slick-list {
+        max-heigth: 212px;
+    }
+    .carouselItem {
+        max-width: 540px;
+    }
+    .motion {
+
+        max-height: 212px;
+    }
+    .motionItem {
+        padding: 2px;
+        max-height: 106px;
+    }
+    .ant-carousel .slick-dots {
+        margin: 0 ;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .carouselItem {
+        max-width: 645px;
+    }
+    .motion {
+
+        max-height: 120px;
+    }
+    .motionItem {
+        padding: 10px;
+        max-height: 120px;
+    }
+    .ant-carousel .slick-dots {
+        margin: 0 ;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .carouselItem {
+        max-width: 380px;
+    }
+    .motion {
+        max-height: 120px;
+    }
+    .motionItem {
+        padding: 5px;
+        max-height: 120px;
+    }
+    .motionItem img {
+        width: 100%;
+    }
+    .ant-carousel .slick-dots {
+        margin: 0 ;
+    }
+}
+
+    

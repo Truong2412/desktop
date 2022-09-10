@@ -1,0 +1,48 @@
+th,td {
+    border:1px solid gray;
+    min-width: 60px;
+    padding: 5px;
+}
+.cart {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.quantity {
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.cartImg {
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+}
+label {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 3px;
+    width: auto;
+}
+input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.totalBill {
+    font-weight: bold;
+    color: darkturquoise;
+    padding: 16px;
+}
+.cartRow {
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 4px;
+}

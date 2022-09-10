@@ -1,0 +1,18 @@
+[
+    {
+    "image": "./images/banner/carousel1.png",
+    "imagealt": "Chuyen trang Samsung"
+    },
+    {
+    "image": "./images/banner/carousel2.png",
+    "imagealt": "Hỗ trợ mùa dịch "
+    },
+    {
+    "image": "./images/banner/carousel3.png",
+    "imagealt": "Đặt trước iphone 13"
+    },
+    {
+    "image": "./images/banner/carousel4.png",
+    "imagealt": "Laptop Dell Inprision"
+    }
+]

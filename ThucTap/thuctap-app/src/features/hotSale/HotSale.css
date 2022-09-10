@@ -1,0 +1,27 @@
+.slick-prev::before {
+    font-size: 30px;
+    color:  #a3c2c2;
+}
+.slick-prev {
+    left: -35px;
+}
+.slick-next::before {
+    font-size: 30px;
+    color:  #a3c2c2;
+}
+.hotSaleTitle {
+    font-weight: bold;
+}
+.hotSaleSlide {
+    width: 95% !important;
+}
+@media only screen and (max-width: 990px) {
+    .slick-prev {
+        left: 5px;
+        z-index: 2;
+    }
+    .slick-next {
+        z-index: 2;
+        right: 5px;
+    }
+}

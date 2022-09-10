@@ -1,0 +1,138 @@
+.ant-layout-header {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -20px;
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.rowHeader {
+    height: 100%;   
+}
+.logo {
+    height: 100%;
+}
+
+.searchBox {
+    margin-top : 20px;
+}
+.ant-input-group-wrapper.ant-input-search.ant-input-search-with-button {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.ant-menu-item-icon {
+    color: cornflowerblue;
+}
+.ant-badge {
+    margin-top: 10%;
+}
+.userButton {
+    padding-right: 4px;
+    color: red;
+    cursor: pointer;
+}
+.userButton:hover {
+    color: #1890ff;
+
+}
+.showFound {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    margin-top: -30px;
+    background-color: white;
+    line-height: 18px;
+    font-weight: 400;
+}
+.showItem {
+    padding: 3px;
+    border-bottom : 1px solid darkred
+}
+.showItem a {
+    color: darkred;
+}
+.showItem a:hover {
+    color: blue;
+}
+@media only screen and (max-width:575px)  {
+    .ant-layout-header {
+        padding: 0 !important;
+        height: 100px ;
+    }
+    .logo {
+        height: 50%;
+    }
+    .logo img {
+        height: 40px;
+    }
+    .searchBox {
+        margin-top: 0px;
+        box-shadow: 0 0 0 0;
+    }
+    .anticon.anticon-ellipsis {
+        font-size: 0px;
+    }
+    .anticon.anticon-ellipsis::after {
+        content: "Menu";
+        font-size: 14px;
+        color:white;
+        padding: 10px;
+        border-radius: 4px;
+        background-color: cornflowerblue;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}
+@media only screen and (max-width: 575px) {
+
+}
+@media only screen and (min-width:576px) and (max-width:767px)  {
+    .logo img {
+        height: 60%;
+    }
+    .anticon.anticon-ellipsis {
+        font-size: 0px;
+    }
+    .anticon.anticon-ellipsis::after {
+        content: "Menu";
+
+        font-size: 14px;
+        color:white;
+        padding: 10px;
+        border-radius: 4px;
+        background-color: cornflowerblue;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px)  {
+    .logo img {
+        height: 65%;
+    }
+    .anticon.anticon-ellipsis {
+        font-size: 0px;
+    }
+    .anticon.anticon-ellipsis::after {
+        content: "Menu";
+
+        font-size: 14px;
+        color:white;
+        padding: 10px;
+        border-radius: 4px;
+        background-color: cornflowerblue;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+}
+@media only screen and (min-width:992px) and (max-width:1023px)  {
+    .logo img {
+        height: 70%;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .logo img {
+        height: 70%;
+    }
+}
+
+
+
+

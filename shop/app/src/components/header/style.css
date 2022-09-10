@@ -1,0 +1,12 @@
+.topHeader {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 3
+}
+.logoBox {
+    height: 100%;
+}
+.logo {
+    width: 65%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
